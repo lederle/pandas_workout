@@ -22,3 +22,8 @@ else:
 
 # beyond
 print(f"month with highest score: {s.idxmax()}")
+sort_by_score = s.sort_values(ascending=False)
+print()
+print("Five highest scores:")
+print(sort_by_score[:5])
+print()
