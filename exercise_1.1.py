@@ -19,3 +19,6 @@ if mean1 > mean2:
     print("first half was better than second")
 else:
     print("second half was better than first")
+
+# beyond
+print(f"month with highest score: {s.idxmax()}")
